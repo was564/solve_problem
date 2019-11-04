@@ -1,4 +1,0 @@
-﻿  main.cpp
-c:\users\was56\source\repos\1260\1260\main.cpp(47): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\was56\source\repos\1260\1260\main.cpp(58): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  1260.vcxproj -> C:\Users\was56\source\repos\1260\Debug\1260.exe
