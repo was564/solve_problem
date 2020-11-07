@@ -6,7 +6,7 @@ using namespace std;
 int solve();
 void getTotalBuildTime(
 	int point, 
-	const vector<vector<int>> graph,
+	const vector<vector<int>>& graph,
 	vector<int>& buildTime,
 	vector<int>& totalBuildTime);
 
@@ -51,7 +51,7 @@ int solve() {
 
 void getTotalBuildTime( // 해당 건물을 짓는데 걸리는 최대시간
 	int point,
-	const vector<vector<int>> graph,
+	const vector<vector<int>>& graph,
 	vector<int>& buildTime,
 	vector<int>& totalBuildTime) {
 	if(graph[point].size() == 0){ // 그냥 지을 수 있는 건물이면
